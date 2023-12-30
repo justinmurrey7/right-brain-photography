@@ -1,4 +1,9 @@
 /* body change*/
+:root {
+    --main-site-color-01: rgba(0, 136, 169, 1);
+    -main-site-color-02-hover: rgba(0, 136, 169, 0.8);
+}
+
 il,
 a,
 button {
@@ -22,17 +27,34 @@ header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
+h1 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+
+}
 
 /*nav & logo*/
-img {
-    height: 80px;
-}
-
 .logo {
     cursor: pointer;
+    height: 80px;
 }
 
 .nav-links {
