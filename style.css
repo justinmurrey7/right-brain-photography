@@ -152,12 +152,6 @@ h3 {
     align-content: center;
 }
 
-.category-title {
-    border-right: 3px solid var(--main-site-color-01);
-    border-bottom: 3px solid var(--main-site-color-01);
-
-}
-
 .category-section h2 {
     padding: 12px;
 }
