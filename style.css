@@ -101,6 +101,7 @@ html {
     width: 100%;
     height: 100vh;
     background: url(img/Sunset.jpg) no-repeat center / cover;
+    border-bottom: 3px solid black;
 
 }
 
@@ -142,4 +143,50 @@ h3 {
     padding: 1em 2rem;
     margin-top: 2rem;
     color: #feeec3;
+}
+
+/*category*/
+.category-section {
+    display: flex;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.category-title {
+    border-right: 3px solid var(--main-site-color-01);
+    border-bottom: 3px solid var(--main-site-color-01);
+
+}
+
+.category-section h2 {
+    padding: 12px;
+}
+
+.category-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.category {
+    text-align: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: #eee;
+
+}
+
+.category p {
+    border-top: 2px solid black;
+    font-weight: bolder;
+
+}
+
+.category img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+
 }
