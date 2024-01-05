@@ -1,7 +1,7 @@
 /* body change*/
 :root {
     --main-site-color-01: rgba(0, 136, 169, 1);
-    -main-site-color-02-hover: rgba(0, 136, 169, 0.8);
+    --main-site-color-02-hover: rgba(0, 136, 169, 0.8);
 }
 
 il,
@@ -184,4 +184,44 @@ h3 {
     height: 70px;
     border-radius: 20%;
 
+}
+
+/*about section*/
+.main-about {
+    margin-top: 5px;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.index-about-img img {
+    width: 200px;
+    border-radius: 200px;
+}
+
+.index-about-test {
+    flex-basis: 455px;
+}
+
+.index-about-testp h2 {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.about-button {
+    text-align: center;
+    margin-top: 5px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
 }
