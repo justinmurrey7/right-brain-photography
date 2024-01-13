@@ -155,7 +155,6 @@ p {
     align-content: center;
 }
 
-
 .category-section h2 {
     padding: 12px;
 }
@@ -165,7 +164,7 @@ p {
     gap: 10px;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 20px;
 }
 
 .category {
@@ -290,50 +289,102 @@ a {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.footer-sitemap li {
-    list-style: none;
-}
-
-.footer-sitemap {
-    flex-basis: 100%;
+.footer-wrapper {
+    margin: 0 auto;
     display: flex;
-    text-decoration: none;
+    justify-content: center;
 }
 
-.footer-sitemap a {
-    line-height: 30px;
+.footer-main {
+    width: 100%;
+    background-color: var(--main-site-color-03);
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    font-style: none;
+    border-top: 3px solid black;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.customer-quote {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.customer-quote img {
+    width: 100px;
+    /* Adjust the width of the image as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-style: italic;
+    color: #555;
+}
+
+.customer-name {
+    text-align: center;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.get-in-touch-btn {
+    background-color: rgba(0, 136, 169, 1);
+    color: #000;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-content {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-bar {
+    flex: 1;
+    border-left: 3px solid rgba(0, 136, 169, 1);
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.nav-bar ul li {
     list-style: none;
 }
 
-.footer-sitemap a:hover {
-    opacity: ;
+.quote {
+    flex: 1;
 }
 
-
-.footer-sitemap ul:nth-child(1) {
-    border-left: 2px solid rgba(0, 136, 169, 1);
-    /*padding-left: 20px;*/
+.contact-info {
+    flex: 1;
+    text-align: right;
 }
 
-.footer-sitemap ul:nth-child(1),
-.footer-sitemap ul:nth-child(2) {
-    flex-basis: 180px;
-}
-
-.footer-sitemap ul:nth-child(3) {
-    flex-basis: 340px;
-}
-
-.footer-sitemap ul:nth-child(4) {
-    flex-grow: 1;
-
-}
-
-.footer-sitemap ul:nth-child(4) li {
-    clear: both;
-    float: right;
-}
-
-.footer-sitemap p {
-    text-transform: uppercase;
+.contact-info h1,
+h2,
+h3 {
+    color: #000;
+    margin: 0;
 }
