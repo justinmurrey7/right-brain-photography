@@ -345,6 +345,7 @@ p {
     color: #000;
     padding: 10px 20px;
     margin-bottom: 10px;
+    margin-top: 10px;
     border: none;
     border-radius: 50px;
     font-size: 16px;
@@ -387,4 +388,14 @@ h2,
 h3 {
     color: #000;
     margin: 0;
+}
+
+
+
+/* Mobile*/
+@media only screen and (max-width: 600px) {
+    .quote {
+        display: none;
+    }
+
 }
